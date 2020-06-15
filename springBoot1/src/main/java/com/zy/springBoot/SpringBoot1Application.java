@@ -2,7 +2,7 @@ package com.zy.springBoot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-//主容器
+//主容器...
 @SpringBootApplication
 public class SpringBoot1Application {
 
