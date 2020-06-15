@@ -4,7 +4,7 @@ import java.lang.reflect.Method;
 
 import org.springframework.aop.MethodBeforeAdvice;
 import org.springframework.stereotype.Repository;
-
+//加入到ioc容器中，名字为studentService
 @Repository(value = "studentService")
 public class studentService implements MethodBeforeAdvice{
 	@Override
